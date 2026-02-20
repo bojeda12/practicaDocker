@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.status(200).send("Hola Docker!");
+  res.status(200).send("Hola esta es la nueva configuracion para las comprobaciones de docker");
 });
 
 module.exports = app;
