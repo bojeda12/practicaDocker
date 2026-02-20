@@ -29,4 +29,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: TUUSUARIO/app:latestd
+          tags: brandon11121/app:latestd
